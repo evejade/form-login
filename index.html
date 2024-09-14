@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="espaco-1">
+            <div id="intro">
+               <p>New here?</p> 
+            </div>
+            <div id="intro-2">
+                <p>sign up and discover a great amount of new opportunities!</p>
+            </div>
+            <div id="button-signup">
+                <button onclick="openBlankPage()" id="signup-btn">sign up</button>
+            </div>
+        </div>
+        <div id="espaco-2">
+            <div class="main">
+                <form action="" id="form">
+                    <div id="title">
+                        <h1>Cadastre-se</h1>
+                        <h6>Já é cadastrado? <a href="about:blank" target="_blank">Login</a></h6>
+                    </div>
+                    <div id="input-group">
+                        <div id="name">
+                            <label for="name">Nome: </label><br>
+                            <input type="text" class="input" placeholder="Digite seu nome" required>
+                        </div>
+                        <div id="lastname">
+                            <label for="lastname">Sobrenome:</label><br>
+                            <input type="text" class="input" placeholder="Digite seu sobrenome" required>
+
+                        </div>
+                        <div id="email">
+                            <label for="email" >Email:</label><br>
+                            <input type="text" class="input" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div id="number">
+                            <label for="number">Celular:</label><br>
+                            <input type="number" class="input" placeholder="(xx)xxxx-xxxx" required>
+                        </div>
+                        <div id="password">
+                            <label for="senha"  >Senha:</label><br>
+                            <input type="password" class="input" placeholder="Digite sua senha" required>
+
+                </form>
+            </div>
+        </div>
+        <div class="plmds">
+            <button type="submit" class="button" onclick="openBlankPage()">Realizar Cadastro</button>
+        </div>
+    </div>
+    </div>
+    <script>
+        function openBlankPage(){
+            window.open('','_blank')
+        }
+    </script>
+</body>
+
+</html>
